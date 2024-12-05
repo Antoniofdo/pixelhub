@@ -24,7 +24,8 @@ p{
   width: 550px;
   height: max-content;
   margin: 40px;
-  background-color: #1413136e ;
+  background-color: #141313bb ;
+  ;
 
 }
 
@@ -247,7 +248,7 @@ input[type=submit]:hover {
   height: max-content;
   margin: 25px;
   padding: 10px;
-  background-color: #1413136e ;
+  background-color: #141313bb ;
 }
 
 .antonioimg{
@@ -260,4 +261,29 @@ input[type=submit]:hover {
   width: 530px;
   height: 270px;
   margin-bottom: 30px;
+}
+
+.blog{
+  width: 550px;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+
+.blog img{
+  width: 530px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.blog h2{
+  color: #39b0df;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog h1 {
+  color: #ffffff;
+  size: 3rem;
 }
