@@ -17,14 +17,15 @@ h3{color: #87ceeb;
 
 p{
   color:#ffffff;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 .aboutusf{
   width: 550px;
   height: max-content;
-  margin: 40px;
-  background-color: #141313bb ;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ; ;
   ;
 
 }
@@ -89,10 +90,10 @@ input[type=submit]:hover {
 }
 .navbar-toggler {
   border-color: white;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 .navbar-toggler-icon {
-  background-color:#ffffff; /* Custom toggle color */
+  background-color:#007bb5; /* Custom toggle color */
 }
 .hero-section {
   height: 40vh;
@@ -311,4 +312,160 @@ input[type=submit]:hover {
 .services h1 {
   color: #ffffff;
   size: 3rem;
+}
+
+.services a{
+  text-decoration: none;
+}
+
+.web{
+  width: 550px;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+
+.web h2{
+  color: #39b0df;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.web h1 {
+  color: #ffffff;
+  size: 3rem;
+}
+
+.web a{
+  text-decoration: none;
+}
+.web h5 {
+  color: #ffffff;
+  size: 18pt;
+}
+
+.web img{
+  width: 530px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.web ul {
+  color: #ffffff;
+  size: 18pt;
+}
+
+.web ul {
+  color: #ffffff;
+  size: 18pt;
+}
+
+.web h6{
+  color: #39b0df;
+  size: 18pt;
+}
+
+
+.seo{
+  width: 550px;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+
+.seo h2{
+  color: #39b0df;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.seo h1 {
+  color: #ffffff;
+  size: 3rem;
+}
+
+.seo a{
+  text-decoration: none;
+}
+
+.seo img{
+  width: 530px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.seo h6{
+  color: #39b0df;
+  size: 18pt;
+}
+
+
+.design{
+  width: 550px;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+
+.design h2{
+  color: #39b0df;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.design h1 {
+  color: #ffffff;
+  size: 3rem;
+}
+
+.design a{
+  text-decoration: none;
+}
+
+.design img{
+  width: 530px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.design h6{
+  color: #39b0df;
+  size: 18pt;
+}
+
+.marketing{
+  width: 550px;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+
+.marketing h2{
+  color: #39b0df;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.marketing h1 {
+  color: #ffffff;
+  size: 3rem;
+}
+
+.marketing a{
+  text-decoration: none;
+}
+
+.marketing img{
+  width: 530px;
+  height: 270px;
+  margin-bottom: 30px;
+}
+
+.marketing h6{
+  color: #39b0df;
+  size: 18pt;
 }
