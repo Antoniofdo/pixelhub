@@ -84,7 +84,7 @@ input[type=submit]:hover {
   height: 40px; /* Adjust logo size */
 }
 .navbar-nav .nav-link {
-  color: white !important;
+  color: white;
   font-size: larger;
   padding-right: 250px;
 }
@@ -468,4 +468,215 @@ input[type=submit]:hover {
 .marketing h6{
   color: #39b0df;
   size: 18pt;
+}
+
+@media (min-width: 601px) and (max-width: 1024px)  /* Tablet */{
+  h1 {
+    font-size: 48pt; 
+}
+  h2{
+    font-size: 40pt; 
+}
+  h3{
+    font-size: 28pt; 
+}
+p {
+    font-size: 16pt; 
+}
+
+.nav-item{
+  padding-left: 10px;
+  font-size: 18pt;
+  color: #39b0df;
+}
+.services{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.services img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.web{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.web img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.seo{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.seo img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.design{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.design img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.marketing{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.marketing img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.team{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.team img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.aboutusf{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.aboutusf img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.blog{
+  width: 95%;
+  height: max-content;
+  margin: 25px;
+  padding: 10px;
+  background-color: #141313bb ;
+}
+.blog img{
+  width: 100%;
+  height: 500px;
+  margin-bottom: 30px;
+}
+}
+
+
+
+
+
+
+@media (min-width: 1025px)  /* Desktop */{
+  h1 {
+    font-size: 62pt;
+}
+  h2 {
+    font-size: 48pt; 
+}
+  h3 {
+    font-size: 32pt; 
+}
+p {
+    font-size: 16pt; 
+}
+.nav-item{
+  padding-left: 20px;
+  font-size: 150%;
+  color: #39b0df;
+}
+.quote-section{
+  margin-top: 10%;
+}
+
+.services{
+  width: 95%;
+}
+
+.services img{
+  width: 100%;
+  height: 20%;
+}
+
+.web{
+  width: 95%;
+}
+
+.web img{
+  width: 99%;
+  height: 20%;
+}
+
+.seo{
+  width: 95%;
+}
+
+.seo img{
+  width: 99%;
+  height: 20%;
+}
+
+.marketing{
+  width: 95%;
+}
+
+.marketing img{
+  width: 99%;
+  height: 20%;
+}
+
+.blog{
+  width: 95%;
+}
+.blog img{
+  width: 99%;
+  height: 20%;
+}
+
+.aboutusf{
+  width: 95%;
+}
+
+.team{
+  width: 95%;
+}
+
+.team img{
+  width: 99%;
+  height:99%;
+}
+
+
 }
