@@ -86,7 +86,7 @@ input[type=submit]:hover {
 .navbar-nav .nav-link {
   color: white;
   font-size: larger;
-  padding-right: 250px;
+  padding-right: 50px;
 }
 .navbar-toggler {
   border-color: white;
