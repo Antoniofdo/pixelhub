@@ -86,7 +86,7 @@ input[type=submit]:hover {
 .navbar-nav .nav-link {
   color: white;
   font-size: larger;
-  padding-right: 50px;
+  padding-right: 250px;
 }
 .navbar-toggler {
   border-color: white;
@@ -94,6 +94,7 @@ input[type=submit]:hover {
 }
 .navbar-toggler-icon {
   background-color:#007bb5; /* Custom toggle color */
+  padding-right: 50%;
 }
 .hero-section {
   height: 40vh;
