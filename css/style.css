@@ -229,12 +229,18 @@ section {
 }
 
 .aboutme {
-  font-size: clamp(1.1rem, 2vw, 1.55rem);
+  font-size: clamp(1.3rem, 2.5vw, 1.75rem);
   font-style: italic;
   color: var(--primary) !important;
+  background: rgba(7, 19, 29, 0.8);
+  padding: 1rem;
+  border-radius: 12px;
   line-height: 1.6;
-  text-shadow: 0 0 8px rgba(135, 206, 235, 0.5);
+  text-shadow: 0 0 8px rgba(135, 206, 235, 0.6);
+  margin: 1rem 0;
 }
+
+
 
 
 
