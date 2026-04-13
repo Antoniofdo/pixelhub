@@ -231,9 +231,11 @@ section {
 .aboutme {
   font-size: clamp(1.1rem, 2vw, 1.55rem);
   font-style: italic;
-  color: var(--text);
+  color: var(--primary) !important;
   line-height: 1.6;
+  text-shadow: 0 0 8px rgba(135, 206, 235, 0.5);
 }
+
 
 
 .call-to-action {
