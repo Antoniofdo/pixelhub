@@ -228,15 +228,95 @@ section {
   border-radius: 28px;
 }
 
-.quote-text {
+.aboutme {
   font-size: clamp(1.1rem, 2vw, 1.55rem);
   font-style: italic;
   color: var(--primary);
 }
 
-.quote-author {
-  color: var(--muted);
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem 1.5rem;
+  margin-top: 1.5rem;
+  background: rgba(135, 206, 235, 0.08);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   font-weight: 600;
+}
+
+.call-to-action .cta-buttons,
+.project-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .project-buttons {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .call-to-action .cta-buttons {
+    flex-direction: column;
+  }
+}
+
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--accent), var(--primary));
+  color: #07131d;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1.05rem;
+  font-family: 'Pixelify Sans', sans-serif;
+  border: 0;
+  box-shadow: 0 8px 20px rgba(57, 176, 223, 0.3);
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(57, 176, 223, 0.4);
+  filter: brightness(1.05);
+}
+
+.cta-button.secondary {
+  background: linear-gradient(135deg, var(--primary), #39b0df);
+  color: #07131d;
+}
+
+.resume-main {
+  padding: 1.25rem 2.5rem !important;
+  font-size: 1.15rem !important;
+  box-shadow: 0 12px 28px rgba(57, 176, 223, 0.4) !important;
+}
+
+.cta-resume-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+
+@media (max-width: 767px) {
+  .cta-button {
+    width: 100%;
+    padding: 1.1rem 1rem;
+  }
 }
 
 .projects-title {
@@ -249,6 +329,19 @@ section {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.5rem;
   align-items: stretch;
+}
+
+.project-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-container .view-btn {
+  margin-top: 1rem;
+  align-self: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
 }
 
 .project-image,
